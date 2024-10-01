@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" FontSize="20" FontWeight="Bold">
     <Canvas>
-        <Button x:Name="btnClickMe" Content="Click Me" Canvas.Left="214" Canvas.Top="116" Height="44" Width="97" Click="btnClickMe_Click"/>
+        <Button x:Name="btnClickMe" Content="Click Me" Canvas.Left="422" Canvas.Top="125" Height="44" Width="97" Click="btnClickMe_Click"/>
+        <TextBox x:Name="txtFirstName" Canvas.Left="260" TextWrapping="Wrap" Canvas.Top="133" Width="120" GotFocus="txtFirstName_GotFocus" LostFocus="txtFirstName_LostFocus" />
+        <Label Content="First name:" Canvas.Left="141" Canvas.Top="129" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
     </Canvas>
 </Window>
